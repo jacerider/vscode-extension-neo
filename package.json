@@ -42,6 +42,7 @@
   },
   "extensionPack": [
     "stylelint.vscode-stylelint",
-    "bradlc.vscode-tailwindcss"
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode"
   ]
 }
