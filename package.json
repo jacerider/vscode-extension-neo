@@ -1,0 +1,27 @@
+{
+  "name": "vscode-extension-neo",
+  "displayName": "Drupal Neo Extension Pack",
+  "description": "Visual Studio Code extensions for developing Drupal based Neo projects.",
+  "version": "1.0.0",
+  "publisher": "jacerider",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "qna": "https://github.com/jacerider/vscode-extension-neo/issues",
+  "bugs": {
+    "url": "https://github.com/jacerider/vscode-extension-neo/issues"
+  },
+  "repository": {
+    "url": "https://github.com/jacerider/vscode-extension-neo"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "stylelint.vscode-stylelint",
+    "bradlc.vscode-tailwindcss",
+    "heybourn.headwind"
+  ]
+}
