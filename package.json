@@ -37,13 +37,11 @@
         "css",
         "scss"
       ],
-      "headwind.runOnSave": true,
       "typescript.tsdk": "node_modules/typescript/lib"
     }
   },
   "extensionPack": [
     "stylelint.vscode-stylelint",
-    "bradlc.vscode-tailwindcss",
-    "heybourn.headwind"
+    "bradlc.vscode-tailwindcss"
   ]
 }
