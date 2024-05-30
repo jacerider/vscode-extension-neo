@@ -36,7 +36,9 @@
       "stylelint.validate": [
         "css",
         "scss"
-      ]
+      ],
+      "headwind.runOnSave": true,
+      "typescript.tsdk": "node_modules/typescript/lib"
     }
   },
   "extensionPack": [
