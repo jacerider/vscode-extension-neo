@@ -19,6 +19,26 @@
   "categories": [
     "Extension Packs"
   ],
+  "contributes": {
+    "configurationDefaults": {
+      "[css]": {
+        "editor.defaultFormatter": "stylelint.vscode-stylelint",
+        "editor.codeActionsOnSave": {
+          "source.fixAll.stylelint": "explicit"
+        }
+      },
+      "[scss]": {
+        "editor.defaultFormatter": "stylelint.vscode-stylelint",
+        "editor.codeActionsOnSave": {
+          "source.fixAll.stylelint": "explicit"
+        }
+      },
+      "stylelint.validate": [
+        "css",
+        "scss"
+      ]
+    }
+  },
   "extensionPack": [
     "stylelint.vscode-stylelint",
     "bradlc.vscode-tailwindcss",
