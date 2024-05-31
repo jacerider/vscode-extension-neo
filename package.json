@@ -21,28 +21,15 @@
   ],
   "contributes": {
     "configurationDefaults": {
-      "[css]": {
-        "editor.defaultFormatter": "stylelint.vscode-stylelint",
-        "editor.codeActionsOnSave": {
-          "source.fixAll.stylelint": "explicit"
-        }
-      },
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
       "[scss]": {
-        "editor.defaultFormatter": "stylelint.vscode-stylelint",
-        "editor.codeActionsOnSave": {
-          "source.fixAll.stylelint": "explicit"
-        }
-      },
-      "stylelint.validate": [
-        "css",
-        "scss"
-      ],
-      "typescript.tsdk": "node_modules/typescript/lib"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      }
     }
   },
   "extensionPack": [
-    "stylelint.vscode-stylelint",
     "bradlc.vscode-tailwindcss",
+    "stylelint.vscode-stylelint",
     "esbenp.prettier-vscode"
   ]
 }
